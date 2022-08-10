@@ -1,5 +1,5 @@
-.container{
-    color:darkcyan;
-    box-sizing: border-box;
-    box-shadow: 2px;
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
