@@ -11,3 +11,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
