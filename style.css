@@ -15,3 +15,7 @@ header{
     text-decoration: none;
     color: #000;
 }
+nav a:hover{
+    color: darkgray;
+    transition: 1s;
+}
