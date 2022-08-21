@@ -37,4 +37,5 @@ input[type="number"]
     width: 82%;
     padding: 10px;
     border: none;
+    background: rgb(245, 245, 245);
 }
