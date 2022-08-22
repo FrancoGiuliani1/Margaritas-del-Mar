@@ -108,5 +108,6 @@ hr{
         margin: auto;
         width: 95%;
         margin-top: 15%;
+        border-radius: 2%;
     }   
 }
