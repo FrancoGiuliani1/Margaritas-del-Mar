@@ -89,4 +89,5 @@ p{
 hr{
     height: 2.5px;
     background-color: #999;
+    opacity: 50%;
 }
