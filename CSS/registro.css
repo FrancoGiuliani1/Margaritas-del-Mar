@@ -91,3 +91,8 @@ hr{
     background-color: #999;
     opacity: 50%;
 }
+
+@media(min-width:0px)
+{
+    
+}
