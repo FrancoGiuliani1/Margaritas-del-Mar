@@ -62,3 +62,7 @@ i{
     border-radius: 5px;
     cursor: pointer;
 }
+
+.boton:hover{
+    background: rgb(67, 117, 218);
+}
