@@ -42,5 +42,6 @@ input[type="password"]
 }
 
 .input-contenedor{
-    
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
 }
