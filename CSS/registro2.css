@@ -34,5 +34,9 @@ input[type="text"],
 input[type="email"],
 input[type="password"] 
 {
-    
+    background: rgb(245, 245, 245);
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
 }
