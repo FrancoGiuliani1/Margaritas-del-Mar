@@ -46,5 +46,7 @@ input[type="password"]
 }
 
 i{
-    
+    min-width: 40px;
+    text-align: center;
+    color: #999;
 }
