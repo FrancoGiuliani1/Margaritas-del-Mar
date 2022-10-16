@@ -62,6 +62,10 @@ i{
     cursor: pointer;
 }
 
-.button:hover{
+.boton:hover{
     background: rgb(67, 117, 218);
+}
+
+p{
+    text-align: center;
 }
