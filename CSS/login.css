@@ -81,5 +81,8 @@ p{
 }
 
 hr{
-    
+    height: 1px;
+    background-color: #999;
+    border-radius: 2%;
+    opacity: 50%;
 }
