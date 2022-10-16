@@ -29,3 +29,10 @@ h1{
     font-size: 40px;
     padding: 28px;
 }
+
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+{
+    
+}
