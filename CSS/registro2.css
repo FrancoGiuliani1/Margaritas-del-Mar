@@ -72,5 +72,7 @@ p{
 }
 
 .link{
-    
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
 }
