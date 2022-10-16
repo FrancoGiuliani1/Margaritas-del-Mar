@@ -38,7 +38,7 @@ body{
 }
 
 .formulario{
-    margin-top: 150px;
+    margin-top: 100px;
     padding: 3px;
     background: rgb(245, 245, 245);
 }
@@ -61,7 +61,7 @@ input[type="password"]
     border: none;
 }
 
-.input-contenedor{
+.input{
     margin-bottom: 20px;
     border: 1px solid #aaa;
 }
@@ -89,6 +89,7 @@ i{
 
 p{
     text-align: center;
+    padding: 16px 2px;
 }
 
 .link{
@@ -102,8 +103,7 @@ p{
 }
 
 hr{
-    height: 1px;
+    height: 0.1px;
     background-color: #999;
-    border-radius: 2%;
     opacity: 50%;
 }
