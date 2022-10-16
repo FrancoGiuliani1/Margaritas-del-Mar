@@ -66,3 +66,7 @@ i{
 .boton:hover{
     background: rgb(67, 117, 218);
 }
+
+p{
+    text-align: center;
+}
