@@ -73,3 +73,14 @@ body{
     line-height: 40px;
     border-radius: 50%;
 }
+.next{
+    display: block;
+    background: cadetblue;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+}
