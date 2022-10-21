@@ -3,32 +3,3 @@ body{
     margin: 0px;
     padding: 0px;
 }
-header{
-	display: flex;
-	height: 50px;
-    padding: 10px;
-    background-color: aqua;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav-link{
-    text-decoration: none;
-    color: #000;
-}
-nav a:hover{
-    color: darkgray;
-    transition: 1s;
-}
-nav a{
-    font-weight: 600;
-    padding-right: 10px;
-}
-.logo{
-    display: flex;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-    color: #000;
-    height: auto;
-}
