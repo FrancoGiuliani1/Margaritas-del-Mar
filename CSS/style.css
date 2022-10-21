@@ -78,4 +78,12 @@ font-size: 1.2rem;
     background-position: center;
     background-repeat: no-repeat;
 }
+.fondo{
+    position: absolute;
+}
+.textoImg{
 
+    position: relative;
+    text-align: center;
+    padding-top: 25%;
+}
