@@ -22,5 +22,9 @@ body{
 .nav{
     width: 90%;
     margin: auto;
+    padding: 2px 0 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
