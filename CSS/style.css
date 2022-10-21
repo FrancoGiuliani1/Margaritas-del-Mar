@@ -66,5 +66,7 @@ font-size: 1.2rem;
 .Title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem ;
+    text-decoration: none;
+    color: #000;
 }
 
