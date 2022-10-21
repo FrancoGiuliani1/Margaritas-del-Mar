@@ -5,6 +5,13 @@
 body{
     font-family: sans-serif;
 }
+.contenedor{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 
 .linea{
     background: rosybrown;
@@ -12,3 +19,4 @@ body{
     width: 100%;
     display: block;
 }
+
