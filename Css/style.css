@@ -147,3 +147,6 @@ body{
     bottom: -12px;
     transition: 0.4s ease-out;
 }
+.nav ul li:hover::before{
+    width: 100%;
+}
