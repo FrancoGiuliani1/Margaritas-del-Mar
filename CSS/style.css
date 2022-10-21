@@ -19,4 +19,8 @@ body{
     width: 100%;
     display: block;
 }
+.nav{
+    width: 90%;
+    margin: auto;
+}
 
