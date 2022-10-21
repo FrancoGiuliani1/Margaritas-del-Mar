@@ -52,3 +52,7 @@ body{
     align-items: center;
     transform: scale(0);
 }
+.ligth-box img{
+    width: 60vw;
+    max-height: 80vh;
+}
