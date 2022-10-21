@@ -31,4 +31,7 @@ body{
     width: 80px;
     cursor: pointer;
 }
+.nav ul li{
+    list-style: none;
+}
 
