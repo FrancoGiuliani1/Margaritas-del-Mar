@@ -72,7 +72,6 @@ font-size: 1.2rem;
 
 .mapa{
     width: 100%;
-    height: 150px;
     margin: auto;
     background-size: cover;
     background-position: center;
@@ -82,8 +81,13 @@ font-size: 1.2rem;
     position: absolute;
 }
 .textoImg{
-
     position: relative;
     text-align: center;
     padding-top: 25%;
 }
+.textoImg button{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
