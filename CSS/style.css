@@ -91,7 +91,7 @@ font-size: 1.2rem;
 
 }
 .textoImg button a{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #000;
 }
