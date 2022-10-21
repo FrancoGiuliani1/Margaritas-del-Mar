@@ -35,5 +35,10 @@ body{
     list-style: none;
     display: inline-block;
     margin: 0 20px;
+    position: relative;
 }
+.nav ul li a{
+text-decoration: none;
+}
+
 
