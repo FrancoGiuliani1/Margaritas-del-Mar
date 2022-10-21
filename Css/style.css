@@ -56,3 +56,6 @@ body{
     width: 60vw;
     max-height: 80vh;
 }
+.ligth-box:target{
+    transform: scale(1);
+}
