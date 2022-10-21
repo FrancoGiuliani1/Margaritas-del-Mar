@@ -28,3 +28,7 @@ body{
     overflow: hidden;
     box-shadow: 0 0 6px rgba(0, 0, 0, 10);
 }
+.galeria a:hover img{
+    filter: blur(1px);
+    transform: rotate(10deg) scale(1.3);
+}
