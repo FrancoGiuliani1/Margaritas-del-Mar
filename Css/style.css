@@ -84,3 +84,14 @@ body{
     text-align: center;
     border-radius: 50%;
 }
+.titulo{
+    width: 600px;
+    height: 35px;
+    margin-bottom: 560px;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 10);
+    position:absolute;
+    transition: transform .2s;
+}
