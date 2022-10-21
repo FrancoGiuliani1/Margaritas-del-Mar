@@ -8,4 +8,7 @@ body{
 
 .linea{
     background: rosybrown;
+    height: 5px;
+    width: 100%;
+    display: block;
 }
