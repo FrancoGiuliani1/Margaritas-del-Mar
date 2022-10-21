@@ -6,3 +6,6 @@
 body{
     font-family: sans-serif;
 }
+.galeria{
+    display: grid;
+}
