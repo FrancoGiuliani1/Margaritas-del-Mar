@@ -91,5 +91,7 @@ font-size: 1.2rem;
 
 }
 .textoImg button a{
+    
     text-decoration: none;
+    color: #000;
 }
