@@ -72,10 +72,8 @@ font-size: 1.2rem;
 
 .mapa{
     width: 100%;
-    margin: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 500px;
+    background-color: #F3F3F3;
 }
 .fondo{
     position: absolute;
@@ -83,7 +81,7 @@ font-size: 1.2rem;
 .textoImg{
     position: relative;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 10%;
 }
 .textoImg button{
     padding: 10px;
@@ -95,4 +93,10 @@ font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
     color: #000;
+}
+.fondo{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
