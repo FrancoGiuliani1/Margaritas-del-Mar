@@ -95,3 +95,6 @@ body{
     opacity: .7;
     object-fit: cover;
 }
+.selector .Img-select .img_select:hover{
+    opacity: 1;
+}
