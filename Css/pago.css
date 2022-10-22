@@ -61,3 +61,8 @@ body{
     text-decoration: none;
     color: #000;
 }
+.selector .img-contenedor{
+    width: 350px;
+    height: 450px;
+    margin-bottom: 20px;
+}
