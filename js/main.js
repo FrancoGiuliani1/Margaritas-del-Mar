@@ -5,5 +5,6 @@ img_select.forEach(thumb => {
         const active = document.querySelector ('.active ')
         active.classList.remove('active')
         this.classList.add('active')
+        main_img.src = this.src
     })
 })
