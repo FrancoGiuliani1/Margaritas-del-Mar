@@ -71,4 +71,12 @@ body{
     height: 100%;
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+    object-fit: cover;
+}
+.selector .Img-select{
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+
 }
