@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-   
+   margin: 0;
+   padding: 0;
 }
 body{
     align-items: center;
@@ -64,6 +65,7 @@ body{
     color: #000;
 }
 .selector .img-contenedor{
+    margin-left: 20px;
     width: 450px;
     height: 450px;
     margin-bottom: 20px;
@@ -76,10 +78,19 @@ body{
     object-fit: cover;
 }
 .selector .Img-select{
+    width: 33%;
     height:80px;
     display: flex;
     justify-content: space-between;
-    margin-left: 0;
+
 
 }
-.selector .Img-select .img_select
+.Img-select{
+    margin-left: 20px;
+}
+.selector .Img-select .img_select{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
