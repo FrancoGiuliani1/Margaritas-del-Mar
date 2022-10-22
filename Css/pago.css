@@ -78,13 +78,9 @@ body{
     object-fit: cover;
 }
 .selector .Img-select{
-    width: 33%;
     height:80px;
     display: flex;
     justify-content: space-between;
-}
-.Img-select{
-    margin-left: 20px;
 }
 .selector .Img-select .thumbnails{
     width: 80px;
