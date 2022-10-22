@@ -86,17 +86,17 @@ body{
 .Img-select{
     margin-left: 20px;
 }
-.selector .Img-select .img_select{
+.selector .Img-select .thumbnails{
     width: 80px;
     height: 80px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
     opacity: .7;
-        transition: 1.2s;
+    transition: 1.2s;
     object-fit: cover;
 }
-.selector .Img-select .img_select:hover{
+.selector .Img-select .thumbnails:hover{
     opacity: 1;
 }
 .activo{
