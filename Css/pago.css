@@ -98,7 +98,7 @@ body{
 .selector .Img-select .thumbnails:hover{
     opacity: 1;
 }
-.activo{
+.active{
     opacity: 1 !important;
     box-shadow: 0 5px rgba(1, 23, 46, 0.6);
 }
