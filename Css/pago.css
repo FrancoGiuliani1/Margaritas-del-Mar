@@ -1,11 +1,13 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
 }
 body{
+    align-items: center;
+    justify-content: center;
     font-family: sans-serif;
     background: #f0f0f0;
+    min-height: 100vh;
 }
 .linea{
     background: #550b51;
@@ -80,3 +82,4 @@ body{
     margin-left: 0;
 
 }
+.selector .Img-select .img_select
