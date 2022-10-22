@@ -70,6 +70,9 @@ body{
     height: 450px;
     margin-bottom: 20px;
 }
+.main_img{
+    margin-bottom: 30px;
+}
 .selector .img-contenedor .main_img{
     width: 100%;
     height: 100%;
