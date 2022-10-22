@@ -93,9 +93,13 @@ body{
     cursor: pointer;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
     opacity: .7;
+    transition: 1.2s;
     object-fit: cover;
 }
 .selector .Img-select .img_select:hover{
     opacity: 1;
-    transition: 1.2s;
+}
+.activo{
+    opacity: 1 !important;
+    box-shadow: 0 5px rgba(1, 23, 46, 0.6);
 }
