@@ -97,4 +97,5 @@ body{
 }
 .selector .Img-select .img_select:hover{
     opacity: 1;
+    transition: 1.2s;
 }
