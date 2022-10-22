@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif;
+    background: #f0f0f0;
 }
 .galeria{
     display: grid;
@@ -82,7 +83,7 @@ body{
     line-height: 30px;
     text-decoration: none;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 .titulo{
     width: 500px;
@@ -96,19 +97,8 @@ body{
     position:absolute;
     transition: transform .2s;
 }
-.titulo {
-    text-decoration: none;
-}
-.titulo:hover{
-    background-color: darkgray;
-    opacity: 2;
-    transition: 1.5s;
-    border-radius: 4px ;
-    transform: scale(1)
-}
 .contenedor{
     width: 100%;
-    background-image: linear-gradient(rgba(5, 10, 5, 0.80)),url(Imagenes/logo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

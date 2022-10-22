@@ -25,7 +25,7 @@ body{
     justify-content: space-between;
 }
 .logo{
-    width: 100px;
+    width: 80px;
     cursor: pointer;
 }
 .nav ul li{
