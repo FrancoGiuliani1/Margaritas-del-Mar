@@ -172,5 +172,10 @@ body{
     }
 }
 @media (max-width: 858px){
-    
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+    }
 }
