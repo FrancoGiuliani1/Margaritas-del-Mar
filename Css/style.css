@@ -113,6 +113,9 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.nav-menu{
+    display: flex;
+}
 .logo{
     width: 80px;
     cursor: pointer;
@@ -163,11 +166,28 @@ body{
 #check{
     display: none;
 }
-@media (max-width: 850px){
-    .logo{
-        font-size: 25px;
-        padding: 0 20px;
-        line-height: 60px;
-    }  
-    
+@media (max-width: 750px){
+    .Title{
+        text-align: center;
+        align-items: center;
+    }
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #550b51;
+        position: fixed;
+        left: 0;
+        top: 100px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100%-100px);
+        overflow-y: auto;
+    }
+    .galeria{
+        display: none;
+    }
+    .nav-menu-item{
+        line-height: 70px;
+    }
 }
