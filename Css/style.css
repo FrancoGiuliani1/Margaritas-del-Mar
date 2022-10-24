@@ -164,7 +164,9 @@ body{
     display: none;
 }
 @media (max-width: 952px){
-    .enlace
+    .enlace{
+        padding-left: 20px;
+    }
 }
 @media (max-width: 858px){
     
