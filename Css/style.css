@@ -160,6 +160,9 @@ body{
     cursor: pointer;
     display: none;
 }
+#check{
+    display: none;
+}
 @media (max-width: 952px){
     .enlace
 }
