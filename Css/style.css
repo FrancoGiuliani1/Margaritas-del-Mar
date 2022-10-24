@@ -152,8 +152,16 @@ body{
     text-decoration: none;
     color: #000;
 }
+.checkbtn{
+    font-size: 25px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+   
+}
 @media (max-width: 952px){
-
+    .enlace
 }
 @media (max-width: 858px){
     
