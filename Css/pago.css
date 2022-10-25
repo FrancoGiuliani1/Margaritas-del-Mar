@@ -74,7 +74,7 @@ nav{
     position: static;
     background: #f0f0f0;
     height: 90px;
-    width: 100%;
+    width: 100vh;
 }
 .enlace{
     position: absolute;
@@ -119,22 +119,25 @@ nav{
         position: fixed;
         z-index: 100;
     }
-    .galeria{
-        margin-top: 55px;
+    .contenedor{
+        background: rgb(255, 255, 255);
+        position:  fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 100;
     }
     .nav-menu{
         flex-direction: column;
         align-items: center;
-        margin-left: 20px;
         background-color: lightsteelblue;
         position: fixed;
         right:-100%;
         top: 90px;
         width: 100%;
         padding: 20px 0;
-        height: 100vh;
+        height: 100%;
         overflow-y: auto;
-        z-index: 100;
+        z-index: 200;
         transition: all .5s;
     }
     nav ul li{
@@ -144,14 +147,22 @@ nav{
     #check:checked ~ ul {
         right:0;
     }
+    .selector{
+        margin-top: 80px;
+    }
     .checkbtn{
         display: block;
+        margin-right: 20px; 
     }
+}
 .selector .img-contenedor{
     margin-left: 20px;
     width: 450px;
     height: 450px;
     margin-bottom: 20px;
+}
+.selector{
+    margin-top: 30px;
 }
 .main_img{
     margin-bottom: 30px;

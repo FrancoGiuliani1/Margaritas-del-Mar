@@ -188,7 +188,7 @@ nav{
     }
     .nav ul li::before{
         content: "";
-        height: 2px;
+        height: 3px;
         width: 0;
         background:rgb(0, 0, 0);
         position: absolute;
@@ -209,32 +209,40 @@ nav{
         position: fixed;
         z-index: 100;
     }
+    .contenedor{
+        background: rgb(255, 255, 255);
+        position:  fixed;
+        width: 100%;
+        height: 90px;
+        z-index: 100;
+    }
     .galeria{
-        margin-top: 55px;
+        margin-top: 70px;
     }
     .nav-menu{
         flex-direction: column;
         align-items: center;
-        margin-left: 20px;
+        margin-left: 0px;
         background-color: lightsteelblue;
         position: fixed;
         right:-100%;
         top: 90px;
         width: 100%;
         padding: 20px 0;
-        height: 100vh;
+        height: 100%;
         overflow-y: auto;
         z-index: 100;
         transition: all .5s;
     }
     nav ul li{
         display: block;
-        line-height: 80px;
+        line-height: 60px;
     }
     #check:checked ~ ul {
         right:0;
     }
     .checkbtn{
         display: block;
+        margin-right: 0px;
     }
 }
