@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 body{
     font-family: sans-serif;
@@ -140,24 +141,38 @@ body{
     content: "";
     height: 3px;
     width: 0;
-    background:lightcoral;
+    background:lightsteelblue;
     position: absolute;
     left: 0;
-    bottom: -12px;
+    bottom: -10px;
     transition: 0.4s ease-out;
 }
 .nav ul li:hover::before{
     width: 100%;
 }
 .Title{
+    margin-left: 30%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem ;
     text-decoration: none;
     color: #000;
 }
+.logo{
+    margin: 0px;
+}
+nav{
+    position: static;
+    background: #f0f0f0;
+    height: 90px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+}
 .checkbtn{
+    color: #000;
     font-size: 25px;
-    float: right;
+    float: left;
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
@@ -167,27 +182,59 @@ body{
     display: none;
 }
 @media (max-width: 750px){
+    .nav ul li>a:hover{
+        color: rgb(106, 83, 109);
+        transition: 0.4s ease-out;
+    }
+    .nav ul li::before{
+        content: "";
+        height: 2px;
+        width: 0;
+        background:rgb(0, 0, 0);
+        position: absolute;
+        left: 0;
+        transition: 0.4s ease-out;
+    }
+    .nav ul li:hover::before{
+        width: 100%;
+    }
+    .logo{
+        margin-left: 40px;
+    }
     .Title{
         text-align: center;
         align-items: center;
     }
+    nav{
+        position: fixed;
+        z-index: 100;
+    }
+    .galeria{
+        margin-top: 55px;
+    }
     .nav-menu{
         flex-direction: column;
         align-items: center;
-        margin-right: 20px;
-        background-color: #550b51;
+        margin-left: 20px;
+        background-color: lightsteelblue;
         position: fixed;
-        left: 0;
-        top: 100px;
+        right:-100%;
+        top: 90px;
         width: 100%;
         padding: 20px 0;
-        height: calc(100%-100px);
+        height: 100vh;
         overflow-y: auto;
+        z-index: 100;
+        transition: all .5s;
     }
-    .galeria{
-        display: none;
+    nav ul li{
+        display: block;
+        line-height: 80px;
     }
-    .nav-menu-item{
-        line-height: 70px;
+    #check:checked ~ ul {
+        right:0;
+    }
+    .checkbtn{
+        display: block;
     }
 }
