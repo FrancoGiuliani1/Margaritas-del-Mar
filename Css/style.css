@@ -10,12 +10,17 @@ body{
 }
 .galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
     margin: auto;
     width: 80%;
     grid-gap: 10px;
     padding: 40px 0;
     overflow: hidden;
+}
+.galeria a:hover{
+    border-radius: 4px;
+    transform: scale(1.03);
+    transition: .5s;
 }
 .galeria img{
     width:100%;
@@ -28,11 +33,11 @@ body{
     display: block;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 10);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 12);
 }
 .galeria a:hover img{
     filter: blur(1px);
-    transform: rotate(10deg) scale(1.3);
+    transform: scale(1.3);
 }
 .linea{
     background: #550b51;
