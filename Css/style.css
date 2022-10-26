@@ -118,8 +118,13 @@ body{
     display: flex;
 }
 .logo{
+    padding: 5px 0 2px;
     width: 80px;
     cursor: pointer;
+}
+.logo:hover{
+    transform: rotate(11deg);
+    transition: .5s; 
 }
 .nav ul li{
     list-style: none;
