@@ -27,15 +27,7 @@ body{
 .nav-menu{
     display: flex;
 }
-.logo{
-    padding: 5px 0 2px;
-    width: 80px;
-    cursor: pointer;
-}
-.logo:hover{
-    transform: rotate(11deg);
-    transition: .5s; 
-}
+
 .nav ul li{
     list-style: none;
     display: inline-block;
@@ -73,7 +65,13 @@ body{
     color: #000;
 }
 .logo{
-    margin: 0px;
+    padding: 5px 0 2px;
+    width: 80px;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: rotate(11deg);
+    transition: .5s; 
 }
 nav{
     position: static;
@@ -159,7 +157,11 @@ nav{
         display: block;
         margin-right: 20px; 
     }
+    .selector .img-contenedor{
+        margin-top:90px ;
+    }
 }
+
 .selector .img-contenedor{
     margin-left: 20px;
     width: 450px;
