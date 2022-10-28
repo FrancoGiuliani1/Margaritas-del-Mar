@@ -21,6 +21,14 @@ body{
     animation-name:galeria;
     animation-duration: 2s;
 }
+@keyframes galeria{
+    0%{
+        transform: translateY(-5%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
 .galeria a:hover{
     border-radius: 4px;
     transform: scale(1.03);
