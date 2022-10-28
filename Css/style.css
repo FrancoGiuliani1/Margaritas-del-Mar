@@ -32,7 +32,6 @@ body{
     }
 }
 .galeria a:hover{
-    border-radius: 4px;
     transform: scale(1.03);
     transition: .5s;
 }
@@ -94,8 +93,24 @@ body{
     text-align: center;
     line-height: 40px;
     border-radius: 100%;
-    
+    transition: 2s;
 }
+/*Rotando el icono de close*/
+.close i:hover{
+    animation-name: rotate ;
+    animation-duration: 2s;
+}
+/*Animacion de rotacion*/
+@keyframes rotate{from {transform:rotate(0deg);}to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg) ;
+    }
+}
+
 .next{
     display: block;
     background: rgba(0, 0, 0, .5);
