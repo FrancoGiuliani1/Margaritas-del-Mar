@@ -95,6 +95,10 @@ body{
     border-radius: 100%;
     transition: 2s;
 }
+.close:hover{
+    background: #72d8f7c5;
+    transition: .2s;
+}
 /*Rotando el icono de close*/
 .close i:hover{
     animation-name: rotate ;
@@ -133,9 +137,7 @@ body{
 }
 .next:hover{
     transition: 1s;
-    font-size: 1.8rem;
-    height: 33px;
-    width: 33px;
+    background: #72d8f7c5;
     line-height: 30px;
 }
 .contenedor{
