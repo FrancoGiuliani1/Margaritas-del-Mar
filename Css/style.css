@@ -113,7 +113,15 @@ body{
     animation-name: Nav-bajo;
     animation-duration: 2s;
 }
+@keyframes Nav-bajo{
+    0%{
+        transform: translateY(-40%);
+    }
+    40%{
+        transform: translateY(0%);
+    }
 
+}
 
 .nav-menu{
     display: flex;
