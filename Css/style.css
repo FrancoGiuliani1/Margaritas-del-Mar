@@ -101,7 +101,14 @@ body{
     animation-duration: 2s;
 }
 /*Animacion de rotacion*/
-@keyframes rotate{from {transform:rotate(0deg);}to {transform: rotate(360deg);}}
+@keyframes rotate{
+    from {
+        transform:rotate(0deg);
+    }to 
+    {
+        transform: rotate(360deg);
+    }
+}
 @-webkit-keyframes rotate {
     from{
         -webkit-transform: rotate(0deg);
