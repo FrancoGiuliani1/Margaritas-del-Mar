@@ -111,7 +111,8 @@ body{
     }
 }
 
-.next{
+.next {
+    font-size: 1.7rem;
     display: block;
     background: rgba(0, 0, 0, .5);
     color: #fff;
@@ -120,7 +121,7 @@ body{
     line-height: 30px;
     text-decoration: none;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 .contenedor{
