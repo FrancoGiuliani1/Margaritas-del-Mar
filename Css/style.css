@@ -237,11 +237,11 @@ nav{
     nav{
         position: fixed;
         z-index: 100;
-        background-image: linear-gradient(-60deg, #ffff75 30%, #ffffff 70%);
+        background-image: linear-gradient(-60deg, #ffff75 10%, #ffffff 90%);
 
     }
     .contenedor{
-        background-image: linear-gradient(-60deg, #ffff75 30%, #ffffff 70%);
+        background-image: linear-gradient(-60deg, #ffff75 10%, #ffffff 90%);
         position:  fixed;
         width: 100%;
         height: 90px;
