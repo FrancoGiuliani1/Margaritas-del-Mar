@@ -11,12 +11,15 @@ body{
 }
 .galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin: auto;
     width: 80%;
-    grid-gap: 10px;
+    grid-gap: 7px;
     padding: 40px 0;
     overflow: hidden;
+    /*Efecto galeria*/
+    animation-name:galeria;
+    animation-duration: 2s;
 }
 .galeria a:hover{
     border-radius: 4px;
