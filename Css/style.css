@@ -5,7 +5,6 @@
     text-decoration: none;
 }
 body{
-    font-family: 'Source Code Pro', monospace;
     background-image: linear-gradient(-60deg, #9DC7C8 20%, #fff 80%);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -146,21 +145,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /*Animation del nav*/
-    animation-name: Nav-bajo;
-    animation-duration: 2s;
 }
-/*Efecto de desplazamiento nav*/
-@keyframes Nav-bajo{
-    0%{
-        transform: translateY(-40%);
-    }
-    40%{
-        transform: translateY(0%);
-    }
-
-}
-
 .nav-menu{
     display: flex;
 }
@@ -205,7 +190,7 @@ body{
 .Title{
     margin-left: 10%;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 2.4rem ;
+    font-size: 2.5rem ;
     text-decoration: none;
     color: #000;
 }
