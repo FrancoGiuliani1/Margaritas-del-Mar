@@ -50,14 +50,14 @@ body::-webkit-scrollbar-thumb{
     font-size: 1.7rem;
 }
 .nav ul li>a:hover{
-    color: rgb(99, 59, 99);
+    color:#e0bf63fb;
     transition: 0.4s ease-out;
 }
 .nav ul li::before{
     content: "";
     height: 3px;
     width: 0;
-    background:lightsteelblue;
+    background:#e0bf63fb;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -72,6 +72,10 @@ body::-webkit-scrollbar-thumb{
     font-size: 2.5rem ;
     text-decoration: none;
     color: #000;
+}
+.Title:hover{
+    color:#e0bf63fb;
+    transition: 1s;
 }
 .logo{
     padding: 5px 0 2px;
