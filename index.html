@@ -4,11 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--seccion de estilos -->
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <!--seccion de logo en pestaña -->
+    <link rel="shortcut icon" href="imagenes/Margarita.png" type="image/x-icon">
+    <!--seccion de iconos -->
+    <link rel="stylesheet" href="font/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Margaritas del Mar</title>
 </head>
 <body>
-<h1> Margaritas del Mar</h1>
-    
+    <!--Tipo de letra-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+    </style>
+    <div class="contenedor">
+        <nav class="nav">
+            <a href="#" class="Title">Margaritas del Mar</a>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+            <img src="Imagenes/logo.png" alt="menu-logo" class="logo">
+             </a>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="#">Inicio</a></li>
+                <li class="nav-menu-item"><a href="index.html">Estadias</a></li>
+                <li class="nav-menu-item"><a href="#">Registrarse</a></li>
+                <li class="nav-menu-item"><a href="#">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <span class="linea"></span>
+    <section class="galeria">
+        <a href="#imagen1">   
+            <img src="Imagenes/puerta1.jpg" alt="">
+        </a>
+        <a href="#imagen2">
+            <img src="Imagenes/01.jpg" alt="">
+        </a>
+        <a href="#imagen3">
+            <img src="Imagenes/01.jpg" alt="">
+        </a>
+        <a href="#imagen4">
+            <img src="Imagenes/01.jpg" alt="">
+        </a>
+        <a href="#imagen5">
+            <img src="Imagenes/01.jpg" alt="">
+        </a>
+    </section>
+    <article class="ligth-box" id="imagen1">
+        <a href="#imagen5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="pago.html"><img src="Imagenes/depa-blanco.jpg" alt=""></a>
+        <a href="#imagen2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close" ><i class="fa-solid fa-xmark"></i></a>
+    </article>
+    <article class="ligth-box" id="imagen2">
+        <a href="#imagen1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="pago2.html"><img src="Imagenes/01.jpg" alt=""></a>
+        <a href="#imagen3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close" ><i class="fa-solid fa-xmark"></i></a>
+    </article>
+    <article class="ligth-box" id="imagen3">
+        <a href="#imagen2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="pago3.html"><img src="Imagenes/01.jpg" alt=""></a>
+        <a href="#imagen4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close" ><i class="fa-solid fa-xmark"></i></a>
+    </article>
+    <article class="ligth-box" id="imagen4">
+        <a href="#imagen3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="pago4.html"><img src="Imagenes/01.jpg" alt=""></a>
+        <a href="#imagen5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close" ><i class="fa-solid fa-xmark"></i></a>
+    </article>
+    <article class="ligth-box" id="imagen5">
+        <a href="#imagen4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="pago5.html"><img src="Imagenes/01.jpg" alt=""></a>
+        <a href="#imagen1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#" class="close" ><i class="fa-solid fa-xmark"></i></a>
+    </article>
 </body>
 </html>
