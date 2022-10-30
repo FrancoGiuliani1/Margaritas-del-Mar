@@ -106,7 +106,9 @@ hr{
 }
 
 img{
-
+    height: 100px;
+    width: 100px;
+    left: 2px;
 }
 
 @media(min-width:0px)
