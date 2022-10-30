@@ -109,7 +109,9 @@ img{
     height: 100px;
     width: 100px;
     left: 2px;
+    padding: 10px;
     position: absolute;
+    
 }
 
 @media(min-width:0px)
