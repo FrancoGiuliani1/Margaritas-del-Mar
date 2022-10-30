@@ -191,3 +191,13 @@ img:hover{
         z-index: 2;
     }
 }
+
+@media screen and (min-width: 1051px) and (max-width:1500px)
+{
+    .formulario{
+        margin: auto;
+        width: 42%;
+        margin-top: 8%;
+        border-radius: 2%;
+    }
+}
