@@ -41,6 +41,7 @@ body{
     margin-top: 100px;
     padding: 3px;
     background: rgb(245, 245, 245);
+    position: relative;
 }
 
 h1{
