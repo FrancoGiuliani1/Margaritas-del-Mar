@@ -130,3 +130,7 @@ img{
     position: absolute;
     transition: all 300ms;
 }
+
+img:hover{
+    transform: scale(1.1);
+}
