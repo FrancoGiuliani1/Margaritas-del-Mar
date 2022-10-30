@@ -128,4 +128,5 @@ img{
     left: 2px;
     padding: 10px;
     position: absolute;
+    transition: all 300ms;
 }
