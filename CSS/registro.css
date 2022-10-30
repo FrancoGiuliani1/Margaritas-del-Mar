@@ -28,7 +28,8 @@ h1{
     text-align: center;
     color: #1a2537;
     font-size: 40px;
-    padding: 28px;
+    padding: 22px;
+    margin-top: 18px;
 }
 
 input[type="text"],
