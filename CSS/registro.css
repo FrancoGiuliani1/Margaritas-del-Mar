@@ -101,6 +101,8 @@ hr{
     height: 104px;
     position: absolute;
     background-color: #f5f5f5;
+    -webkit-border-radius: 58px;
+    border-radius: 58px;
 }
 
 @media(min-width:0px)
