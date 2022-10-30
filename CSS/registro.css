@@ -94,6 +94,10 @@ hr{
     opacity: 50%;
 }
 
+.caja{
+
+}
+
 @media(min-width:0px)
 {
     .formulario{
