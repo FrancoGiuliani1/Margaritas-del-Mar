@@ -95,7 +95,10 @@ hr{
 }
 
 .caja{
-
+    top: -9%;
+    left: 40%;
+    width: 104px;
+    height: 104px;
 }
 
 @media(min-width:0px)
