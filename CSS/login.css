@@ -112,5 +112,8 @@ hr{
 }
 
 .caja{
-
+    top: -12%;
+    left: 40%;
+    width: 104px;
+    height: 104px;
 }
