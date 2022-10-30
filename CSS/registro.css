@@ -99,6 +99,7 @@ hr{
     left: 40%;
     width: 104px;
     height: 104px;
+    position: absolute;
 }
 
 @media(min-width:0px)
