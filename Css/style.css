@@ -129,20 +129,40 @@ body::-webkit-scrollbar-thumb{
     }
 }
 
-.next {
+.next1 {
     font-size: 1.7rem;
-    display: block;
     background: rgba(0, 0, 0, .5);
     color: #fff;
-    height: 30px;
+    height: 75%;
     width: 30px;
-    line-height: 30px;
+    top: 12%;
+    bottom: 12%;
     text-decoration: none;
-    text-align: center;
-    border-radius: 50%;
+    position: fixed;
+    left: 26%;
+    
 
 }
-.next:hover{
+.next2 {
+    font-size: 1.7rem;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    height: 75%;
+    width: 30px;
+    text-decoration: none;
+    position: fixed;
+    right: 26%;
+    
+
+}
+
+.next2:hover{
+    transition: 1s;
+    background: #72d8f7c5;
+    line-height: 30px;
+}
+
+.next1:hover{
     transition: 1s;
     background: #72d8f7c5;
     line-height: 30px;
