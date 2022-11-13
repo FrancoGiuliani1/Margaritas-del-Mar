@@ -69,6 +69,17 @@ font-size: 1.2rem;
     text-decoration: none;
     color: #000;
 }
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
 
 .mapa{
     width: 100%;
