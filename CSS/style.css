@@ -78,7 +78,8 @@ font-size: 1.2rem;
     animation: transition 20s infinite;
     width: 400%;
 }
-.slider li{
+
+.slider img{
     width: 100%;
     height: 650px;
 }
