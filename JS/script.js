@@ -6,3 +6,4 @@ var boton =document.getElementById('boton')
 
 input.addEventListener('input', stop)
 input2.addEventListener('input', stop)
+input3.addEventListener('input', stop)
