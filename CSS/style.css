@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito','sans-serif';
 }
 body{
     font-family: sans-serif;
@@ -106,13 +110,13 @@ font-size: 1.2rem;
     font-size: 1.3rem;
 }
 
-sobre-nosotros{
+.sobre-nosotros {
     padding: 20px;
     display: flex;
-    max-width: 1100px;
     text-align: center;
 }
-.tarjeta{
+
+.tarjeta {
     width: 100%;
     margin: 20px;
     border-radius: 6px;
@@ -123,25 +127,29 @@ sobre-nosotros{
     transition: all 400ms ease;
 }
 
-.tarjeta:hover{
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+.tarjeta:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
     transform: translateY(-1%);
 }
 
-.tarjeta img{
+.card img {
     width: 100%;
     height: 210px;
     text-align: center;
 }
-.tarjeta .contenido{
+
+.tarjeta .contenido {
     padding: 15px;
     text-align: center;
 }
-.tarjeta .contenido p{
+
+.tarjeta .contenido p {
     line-height: 1.5;
     color: #6a6a6a;
+
 }
-.tarjeta .contenido h3{
+
+.tarjeta .contenido h3 {
     font-weight: 400;
     margin-bottom: 15px;
 }
