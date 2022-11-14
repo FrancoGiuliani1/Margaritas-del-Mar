@@ -52,6 +52,10 @@ input[type="number"]::-webkit-inner-spin-button{
     border: 1px solid #aaa;
 }
 
+.input-Clave{
+
+}
+
 i{
     min-width: 40px;
     text-align: center;
