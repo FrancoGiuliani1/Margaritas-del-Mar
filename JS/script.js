@@ -10,5 +10,7 @@ input3.addEventListener('input', stop)
 input4.addEventListener('input', stop)
 
 function stop(){
-
+    if(input.lenght=1){
+    
+    }
 }
