@@ -14,6 +14,6 @@ function stop(){
         boton.classList.remove('input-Clave')
     }
     else{
-    
+        boton.classList.add('input-Clave')
     }
 }
