@@ -155,11 +155,15 @@ font-size: 1.2rem;
 }
 .maps {
     margin: 30px;
-    display: flex;
-    text-align: center;
+
 } 
 .maps h2{
     font-size: 1,5rem;
     font-weight: 500;
     color: rgb(14, 60, 185);
+    text-align: center;
+}
+.maps .mapa{
+    padding: 20px;
+    text-align: center;
 }
