@@ -141,3 +141,7 @@ sobre-nosotros{
     line-height: 1.5;
     color: #6a6a6a;
 }
+.tarjeta .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+}
