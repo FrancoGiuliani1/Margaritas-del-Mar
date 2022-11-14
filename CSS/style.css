@@ -137,3 +137,7 @@ sobre-nosotros{
     padding: 15px;
     text-align: center;
 }
+.tarjeta .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
