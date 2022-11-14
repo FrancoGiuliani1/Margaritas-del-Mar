@@ -56,6 +56,7 @@ input[type="number"]::-webkit-inner-spin-button{
     animation-name: desp;
     animation-duration: 500ms;
     animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
 i{
