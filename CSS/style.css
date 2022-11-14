@@ -153,8 +153,13 @@ font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
-.map {
+.maps {
     margin: 30px;
     display: flex;
     text-align: center;
 } 
+.maps h2{
+    font-size: 1,5rem;
+    font-weight: 500;
+    color: rgb(14, 60, 185);
+}
