@@ -8,3 +8,7 @@ input.addEventListener('input', stop)
 input2.addEventListener('input', stop)
 input3.addEventListener('input', stop)
 input4.addEventListener('input', stop)
+
+function stop(){
+
+}
