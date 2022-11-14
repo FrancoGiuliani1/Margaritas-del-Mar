@@ -60,7 +60,12 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 @keyframes desp{
-
+    from {
+        transform: translateX(-4%);
+    }to 
+    {
+        transform: translateX(4%);
+    }
 }
 
 i{
