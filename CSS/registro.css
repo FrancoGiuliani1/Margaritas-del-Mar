@@ -47,7 +47,7 @@ input[type="number"]::-webkit-inner-spin-button{
     margin: 0;
 }
 
-.input{
+.campo{
     margin-bottom: 20px;
     border: 1px solid #aaa;
 }
