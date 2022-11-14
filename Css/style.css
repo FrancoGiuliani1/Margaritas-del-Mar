@@ -391,9 +391,9 @@ body{
     .footer .row ul li{
     display:block;
     margin:10px 0px;
-    text-align:left;
+    text-align:centerfo;
     }
     .footer .row a i{
     margin:0% 3%;
     }
-    }
+}
