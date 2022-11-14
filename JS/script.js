@@ -13,4 +13,7 @@ function stop(){
     if(input.lenght=1){
         boton.classList.remove('input-Clave')
     }
+    else{
+    
+    }
 }
