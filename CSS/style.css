@@ -153,3 +153,8 @@ font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
+.map {
+    margin: 30px;
+    display: flex;
+    text-align: center;
+} 
