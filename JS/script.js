@@ -11,6 +11,6 @@ input4.addEventListener('input', stop)
 
 function stop(){
     if(input.lenght=1){
-    
+        boton.classList.remove('input-Clave')
     }
 }
