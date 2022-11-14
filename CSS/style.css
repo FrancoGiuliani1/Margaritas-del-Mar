@@ -133,3 +133,7 @@ sobre-nosotros{
     height: 210px;
     text-align: center;
 }
+.tarjeta .contenido{
+    padding: 15px;
+    text-align: center;
+}
