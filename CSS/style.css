@@ -245,5 +245,8 @@ body{
     margin:0% 2%;
 }
 @media (max-width:720px){
+.footer{   
+text-align:left;
+}
 
 }
