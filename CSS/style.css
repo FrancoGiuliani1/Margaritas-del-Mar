@@ -201,3 +201,6 @@ height: 100%;
     z-index: -1;
     border-radius: 15px;
 }   
+.carousel .carousel-item h3{
+    color: #fff;
+}
