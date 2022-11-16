@@ -247,6 +247,7 @@ body{
 @media (max-width:720px){
 .footer{   
 text-align:left;
+padding:5%;
 }
 
 }
