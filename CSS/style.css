@@ -237,4 +237,6 @@ body{
 }
 .footer .row ul li{
     display:inline-block;
+    margin:0px 20px;
+
 }
