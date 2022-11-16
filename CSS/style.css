@@ -254,4 +254,7 @@ display: block;
 margin:10px 0px;
 text-align:left;
 }
+.footer .row a i{
+    margin:0% 3%;
+}
 }
