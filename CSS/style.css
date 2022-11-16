@@ -225,4 +225,6 @@ body{
 .footer .row a{
     text-decoration:none;
     color:rgb(255, 255, 255);
+    transition:0.5s;
+    font-size: 15px;
 }
