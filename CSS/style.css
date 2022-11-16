@@ -209,3 +209,8 @@ body{
     margin:0;
     overflow-x:hidden;    
 }
+.footer{
+    background:#5f5f5f;
+    padding:6px 0px;
+
+}
