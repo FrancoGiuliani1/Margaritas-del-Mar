@@ -185,4 +185,6 @@ iframe:hover{
 .carousel .carousel-item{
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
 }
