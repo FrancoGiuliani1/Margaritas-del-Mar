@@ -182,3 +182,7 @@ iframe:hover{
     min-height: 500px;
     max-height: 500px;
 }
+.carousel .carousel-item{
+display: flex;
+flex-direction: column;
+}
