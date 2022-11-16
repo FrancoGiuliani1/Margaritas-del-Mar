@@ -7,5 +7,6 @@ dist: -80,
 shift: 5,
 padding:5,
 numVisible: 3,
+noWrap: false,
 });
 });
