@@ -228,3 +228,6 @@ body{
     transition:0.5s;
     font-size: 15px;
 }
+.footer .row a:hover{
+    color:rgb(3, 3, 3);
+}
