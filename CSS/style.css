@@ -231,3 +231,7 @@ body{
 .footer .row a:hover{
     color:rgb(3, 3, 3);
 }
+    
+.footer .row ul{
+    width:100%;
+}
